@@ -1,3 +1,9 @@
+// check username password in post(login) request
+// if exist, create new JWT
+// send back to frontend
+
+// setup authentication so only the request with JWT can access the dashboard
+
 require('dotenv').config();
 require('express-async-errors');
 
